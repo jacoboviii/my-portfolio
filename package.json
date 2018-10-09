@@ -3,13 +3,16 @@
   "version": "1.0.0",
   "description": "My Responsive Portfolio Webpage",
   "main": "index.js",
+  "homepage": "https://jacoboviii.github.io/my-portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ -r"
+    "sass": "node-sass -w scss/ -o dist/css/ -r",
+    "deploy": "gh-pages -d dist"
   },
   "keywords": [],
   "author": "Jacobo Perez",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "node-sass": "^4.9.3"
   }
 }
